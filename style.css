@@ -1,0 +1,201 @@
+main {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+
+
+}
+
+.semi-circle {
+
+    display: inline-block;
+    margin: 0 1em 1em 0;
+    height: 45px;
+    width: 45px;
+    border-bottom-left-radius: 90px;
+    border-top-left-radius: 90px;
+}
+
+.cards {
+    height: 100vh;
+    width: 40vh;
+    padding: 10px;
+    background: aliceblue;
+    overflow-y: scroll;
+    scrollbar-color: blue;
+
+
+
+}
+
+.card-top {
+
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.card-top>div {
+    display: flex;
+
+}
+
+.card-top>div>p {
+    font-weight: 900;
+    padding-top: 8px;
+}
+
+#red {
+    background: rgb(235, 9, 9);
+}
+
+#blue {
+    background: rgb(79, 138, 247);
+}
+
+#yellow {
+    background: rgb(255, 245, 106);
+}
+
+.card-top>p {
+
+    font-weight: 900;
+}
+
+.card {
+
+    width: 100%;
+    padding: 20px;
+    margin-top: 15px;
+
+}
+
+.cardHeader {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-client {
+    display: flex;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.client-name {
+    padding-left: 5px;
+    padding-top: 8%;
+}
+
+.cardBody {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cardBody>p {
+    white-space: nowrap;
+    width: 80%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+
+.cardBody-text {
+    width: 30%;
+    text-align: right;
+
+}
+
+.cardFooter {
+    background-color: white !important;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cardFooter span {
+    padding-left: 10px;
+}
+
+.cardFooter img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.close {
+    color: #aaa;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#treeView {
+    padding-left: 20px;
+}
+
+#treeView>div {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+}
+
+#treeView>div>span {
+    margin-left: 10px;
+    color: gray;
+}
+
+/* scroll bar */
+
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+::-webkit-scrollbar-track {
+
+    border-radius: 10px;
+}
+
+
+::-webkit-scrollbar-thumb {
+    background: rgb(44, 132, 255);
+    border-radius: 10px;
+}
+
+#one{
+    background-color: rgb(245, 245, 245);
+    
+    border-radius: 50%;
+    padding: 3px;
+}

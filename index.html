@@ -1,0 +1,2770 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--css-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <title>Task</title>
+</head>
+
+<body>
+    <main>
+        <section class="cards">
+            <div class="card-top">
+                <div>
+                    <span id="red" class="semi-circle"></span>
+                    <p>Incmplete</p>
+                </div>
+                <div>
+                    <p>0</p>
+                </div>
+            </div>
+
+
+            <div>
+                <div class="card">
+                    <!--Card Header-->
+                    <div class="cardHeader">
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+                    </div>
+                    <!--Card Body-->
+                    <div class="card-body">
+                        <div class="cardBody">
+                            <p class="clien"><span><img src="./images/layer.jpg" alt="layer" /></span> Lorem ipsum dolor
+                                sit amet, consectetur adipisicing elit. Vero modi repellat officiis in velit. Impedit
+                                saepe, sed corrupti, ratione eligendi sapiente sit ipsam quis.....</p>
+                            <p class="cardBody-text"><img src="./images/board.png" alt="image" /><span>1/2</span></p>
+                        </div>
+                    </div>
+                    <!--Card Footer-->
+                    <div class="cardFooter">
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                       <p id="one">12+</p>
+                        <p> <img src="./images/chat.png" alt="image" /><span>15</span></p>
+                        <p><img src="./images/file.png" alt="image" onclick="openModal()" /><span>25</span></p>
+
+                        <div id="modal" class="modal">
+                            <div class="modal-content">
+                                <span class="close" onclick="closeModal()">&times;</span>
+                                <input type="file" id="fileInput" multiple>
+                                <div id="treeView"></div>
+                            </div>
+                        </div>
+
+                        <p> <img src="./images/calender.png" alt="image" /><span>30-12-2022</span></p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="card">
+                    <!--Card Header-->
+                    <div class="cardHeader">
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+                    </div>
+                    <!--Card Body-->
+                    <div class="card-body">
+                        <div class="cardBody">
+                            <p class="clien"><span><img src="./images/layer.jpg" alt="layer" /></span> Lorem ipsum dolor
+                                sit amet, consectetur adipisicing elit. Vero modi repellat officiis in velit. Impedit
+                                saepe, sed corrupti, ratione eligendi sapiente sit ipsam quis.....</p>
+                            <p class="cardBody-text"><img src="./images/board.png" alt="image" /><span>1/2</span></p>
+                        </div>
+                    </div>
+                    <!--Card Footer-->
+                    <div class="cardFooter">
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                        <p id="one">12+</p>
+                        <p> <img src="./images/chat.png" alt="image" /><span>15</span></p>
+                        <p><img src="./images/file.png" alt="image" onclick="openModal()" /><span>25</span></p>
+
+                        <div id="modal" class="modal">
+                            <div class="modal-content">
+                                <span class="close" onclick="closeModal()">&times;</span>
+                                <input type="file" id="fileInput" multiple>
+                                <div id="treeView"></div>
+                            </div>
+                        </div>
+
+                        <p> <img src="./images/calender.png" alt="image" /><span>30-12-2022</span></p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div>
+                <div class="card">
+                    <!--Card Header-->
+                    <div class="cardHeader">
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+                    </div>
+                    <!--Card Body-->
+                    <div class="card-body">
+                        <div class="cardBody">
+                            <p class="clien"><span><img src="./images/layer.jpg" alt="layer" /></span> Lorem ipsum dolor
+                                sit amet, consectetur adipisicing elit. Vero modi repellat officiis in velit. Impedit
+                                saepe, sed corrupti, ratione eligendi sapiente sit ipsam quis.....</p>
+                            <p class="cardBody-text"><img src="./images/board.png" alt="image" /><span>1/2</span></p>
+                        </div>
+                    </div>
+                    <!--Card Footer-->
+                    <div class="cardFooter">
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                       <p id="one">12+</p>
+                        <p> <img src="./images/chat.png" alt="image" /><span>15</span></p>
+                        <p><img src="./images/file.png" alt="image" onclick="openModal()" /><span>25</span></p>
+
+                        <div id="modal" class="modal">
+                            <div class="modal-content">
+                                <span class="close" onclick="closeModal()">&times;</span>
+                                <input type="file" id="fileInput" multiple>
+                                <div id="treeView"></div>
+                            </div>
+                        </div>
+
+                        <p> <img src="./images/calender.png" alt="image" /><span>30-12-2022</span></p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="card">
+                    <!--Card Header-->
+                    <div class="cardHeader">
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+                    </div>
+                    <!--Card Body-->
+                    <div class="card-body">
+                        <div class="cardBody">
+                            <p class="clien"><span><img src="./images/layer.jpg" alt="layer" /></span> Lorem ipsum dolor
+                                sit amet, consectetur adipisicing elit. Vero modi repellat officiis in velit. Impedit
+                                saepe, sed corrupti, ratione eligendi sapiente sit ipsam quis.....</p>
+                            <p class="cardBody-text"><img src="./images/board.png" alt="image" /><span>1/2</span></p>
+                        </div>
+                    </div>
+                    <!--Card Footer-->
+                    <div class="cardFooter">
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                       <p id="one">12+</p>
+                        <p> <img src="./images/chat.png" alt="image" /><span>15</span></p>
+                        <p><img src="./images/file.png" alt="image" onclick="openModal()" /><span>25</span></p>
+
+                        <div id="modal" class="modal">
+                            <div class="modal-content">
+                                <span class="close" onclick="closeModal()">&times;</span>
+                                <input type="file" id="fileInput" multiple>
+                                <div id="treeView"></div>
+                            </div>
+                        </div>
+
+                        <p> <img src="./images/calender.png" alt="image" /><span>30-12-2022</span></p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="card">
+                    <!--Card Header-->
+                    <div class="cardHeader">
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+                    </div>
+                    <!--Card Body-->
+                    <div class="card-body">
+                        <div class="cardBody">
+                            <p class="clien"><span><img src="./images/layer.jpg" alt="layer" /></span> Lorem ipsum dolor
+                                sit amet, consectetur adipisicing elit. Vero modi repellat officiis in velit. Impedit
+                                saepe, sed corrupti, ratione eligendi sapiente sit ipsam quis.....</p>
+                            <p class="cardBody-text"><img src="./images/board.png" alt="image" /><span>1/2</span></p>
+                        </div>
+                    </div>
+                    <!--Card Footer-->
+                    <div class="cardFooter">
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                       <p id="one">12+</p>
+                        <p> <img src="./images/chat.png" alt="image" /><span>15</span></p>
+                        <p><img src="./images/file.png" alt="image" onclick="openModal()" /><span>25</span></p>
+
+                        <div id="modal" class="modal">
+                            <div class="modal-content">
+                                <span class="close" onclick="closeModal()">&times;</span>
+                                <input type="file" id="fileInput" multiple>
+                                <div id="treeView"></div>
+                            </div>
+                        </div>
+
+                        <p> <img src="./images/calender.png" alt="image" /><span>30-12-2022</span></p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="card">
+                    <!--Card Header-->
+                    <div class="cardHeader">
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+                    </div>
+                    <!--Card Body-->
+                    <div class="card-body">
+                        <div class="cardBody">
+                            <p class="clien"><span><img src="./images/layer.jpg" alt="layer" /></span> Lorem ipsum dolor
+                                sit amet, consectetur adipisicing elit. Vero modi repellat officiis in velit. Impedit
+                                saepe, sed corrupti, ratione eligendi sapiente sit ipsam quis.....</p>
+                            <p class="cardBody-text"><img src="./images/board.png" alt="image" /><span>1/2</span></p>
+                        </div>
+                    </div>
+                    <!--Card Footer-->
+                    <div class="cardFooter">
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                       <p id="one">12+</p>
+                        <p> <img src="./images/chat.png" alt="image" /><span>15</span></p>
+                        <p><img src="./images/file.png" alt="image" onclick="openModal()" /><span>25</span></p>
+
+                        <div id="modal" class="modal">
+                            <div class="modal-content">
+                                <span class="close" onclick="closeModal()">&times;</span>
+                                <input type="file" id="fileInput" multiple>
+                                <div id="treeView"></div>
+                            </div>
+                        </div>
+
+                        <p> <img src="./images/calender.png" alt="image" /><span>30-12-2022</span></p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div>
+                <div class="card">
+                    <!--Card Header-->
+                    <div class="cardHeader">
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+                    </div>
+                    <!--Card Body-->
+                    <div class="card-body">
+                        <div class="cardBody">
+                            <p class="clien"><span><img src="./images/layer.jpg" alt="layer" /></span> Lorem ipsum dolor
+                                sit amet, consectetur adipisicing elit. Vero modi repellat officiis in velit. Impedit
+                                saepe, sed corrupti, ratione eligendi sapiente sit ipsam quis.....</p>
+                            <p class="cardBody-text"><img src="./images/board.png" alt="image" /><span>1/2</span></p>
+                        </div>
+                    </div>
+                    <!--Card Footer-->
+                    <div class="cardFooter">
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                       <p id="one">12+</p>
+                        <p> <img src="./images/chat.png" alt="image" /><span>15</span></p>
+                        <p><img src="./images/file.png" alt="image" onclick="openModal()" /><span>25</span></p>
+
+                        <div id="modal" class="modal">
+                            <div class="modal-content">
+                                <span class="close" onclick="closeModal()">&times;</span>
+                                <input type="file" id="fileInput" multiple>
+                                <div id="treeView"></div>
+                            </div>
+                        </div>
+
+                        <p> <img src="./images/calender.png" alt="image" /><span>30-12-2022</span></p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="card">
+                    <!--Card Header-->
+                    <div class="cardHeader">
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+                    </div>
+                    <!--Card Body-->
+                    <div class="card-body">
+                        <div class="cardBody">
+                            <p class="clien"><span><img src="./images/layer.jpg" alt="layer" /></span> Lorem ipsum dolor
+                                sit amet, consectetur adipisicing elit. Vero modi repellat officiis in velit. Impedit
+                                saepe, sed corrupti, ratione eligendi sapiente sit ipsam quis.....</p>
+                            <p class="cardBody-text"><img src="./images/board.png" alt="image" /><span>1/2</span></p>
+                        </div>
+                    </div>
+                    <!--Card Footer-->
+                    <div class="cardFooter">
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                       <p id="one">12+</p>
+                        <p> <img src="./images/chat.png" alt="image" /><span>15</span></p>
+                        <p><img src="./images/file.png" alt="image" onclick="openModal()" /><span>25</span></p>
+
+                        <div id="modal" class="modal">
+                            <div class="modal-content">
+                                <span class="close" onclick="closeModal()">&times;</span>
+                                <input type="file" id="fileInput" multiple>
+                                <div id="treeView"></div>
+                            </div>
+                        </div>
+
+                        <p> <img src="./images/calender.png" alt="image" /><span>30-12-2022</span></p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="card">
+                    <!--Card Header-->
+                    <div class="cardHeader">
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+                    </div>
+                    <!--Card Body-->
+                    <div class="card-body">
+                        <div class="cardBody">
+                            <p class="clien"><span><img src="./images/layer.jpg" alt="layer" /></span> Lorem ipsum dolor
+                                sit amet, consectetur adipisicing elit. Vero modi repellat officiis in velit. Impedit
+                                saepe, sed corrupti, ratione eligendi sapiente sit ipsam quis.....</p>
+                            <p class="cardBody-text"><img src="./images/board.png" alt="image" /><span>1/2</span></p>
+                        </div>
+                    </div>
+                    <!--Card Footer-->
+                    <div class="cardFooter">
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                       <p id="one">12+</p>
+                        <p> <img src="./images/chat.png" alt="image" /><span>15</span></p>
+                        <p><img src="./images/file.png" alt="image" onclick="openModal()" /><span>25</span></p>
+
+                        <div id="modal" class="modal">
+                            <div class="modal-content">
+                                <span class="close" onclick="closeModal()">&times;</span>
+                                <input type="file" id="fileInput" multiple>
+                                <div id="treeView"></div>
+                            </div>
+                        </div>
+
+                        <p> <img src="./images/calender.png" alt="image" /><span>30-12-2022</span></p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="card">
+                    <!--Card Header-->
+                    <div class="cardHeader">
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+                    </div>
+                    <!--Card Body-->
+                    <div class="card-body">
+                        <div class="cardBody">
+                            <p class="clien"><span><img src="./images/layer.jpg" alt="layer" /></span> Lorem ipsum dolor
+                                sit amet, consectetur adipisicing elit. Vero modi repellat officiis in velit. Impedit
+                                saepe, sed corrupti, ratione eligendi sapiente sit ipsam quis.....</p>
+                            <p class="cardBody-text"><img src="./images/board.png" alt="image" /><span>1/2</span></p>
+                        </div>
+                    </div>
+                    <!--Card Footer-->
+                    <div class="cardFooter">
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                       <p id="one">12+</p>
+                        <p> <img src="./images/chat.png" alt="image" /><span>15</span></p>
+                        <p><img src="./images/file.png" alt="image" onclick="openModal()" /><span>25</span></p>
+                        <!--Modal &&  file Upload-->
+                        <div id="modal" class="modal">
+                            <div class="modal-content">
+                                <span class="close" onclick="closeModal()">&times;</span>
+                                <input type="file" id="fileInput" multiple>
+                                <div id="treeView"></div>
+                            </div>
+                        </div>
+
+                        <p> <img src="./images/calender.png" alt="image" /><span>30-12-2022</span></p>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </section>
+
+        <section class="cards">
+            <div class="card-top">
+                <div>
+                    <span id="blue" class="semi-circle"></span>
+                    <p>To-Do</p>
+                </div>
+                <div>
+                    <p>0</p>
+                </div>
+            </div>
+
+
+            <div>
+                <div class="card">
+                    <!--Card Header-->
+                    <div class="cardHeader">
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+                    </div>
+                    <!--Card Body-->
+                    <div class="card-body">
+                        <div class="cardBody">
+                            <p class="clien"><span><img src="./images/layer.jpg" alt="layer" /></span> Lorem ipsum dolor
+                                sit amet, consectetur adipisicing elit. Vero modi repellat officiis in velit. Impedit
+                                saepe, sed corrupti, ratione eligendi sapiente sit ipsam quis.....</p>
+                            <p class="cardBody-text"><img src="./images/board.png" alt="image" /><span>1/2</span></p>
+                        </div>
+                    </div>
+                    <!--Card Footer-->
+                    <div class="cardFooter">
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                       <p id="one">12+</p>
+                        <p> <img src="./images/chat.png" alt="image" /><span>15</span></p>
+                        <p><img src="./images/file.png" alt="image" onclick="openModal()" /><span>25</span></p>
+
+                        <div id="modal" class="modal">
+                            <div class="modal-content">
+                                <span class="close" onclick="closeModal()">&times;</span>
+                                <input type="file" id="fileInput" multiple>
+                                <div id="treeView"></div>
+                            </div>
+                        </div>
+
+                        <p> <img src="./images/calender.png" alt="image" /><span>30-12-2022</span></p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="card">
+                    <!--Card Header-->
+                    <div class="cardHeader">
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+                    </div>
+                    <!--Card Body-->
+                    <div class="card-body">
+                        <div class="cardBody">
+                            <p class="clien"><span><img src="./images/layer.jpg" alt="layer" /></span> Lorem ipsum dolor
+                                sit amet, consectetur adipisicing elit. Vero modi repellat officiis in velit. Impedit
+                                saepe, sed corrupti, ratione eligendi sapiente sit ipsam quis.....</p>
+                            <p class="cardBody-text"><img src="./images/board.png" alt="image" /><span>1/2</span></p>
+                        </div>
+                    </div>
+                    <!--Card Footer-->
+                    <div class="cardFooter">
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                       <p id="one">12+</p>
+                        <p> <img src="./images/chat.png" alt="image" /><span>15</span></p>
+                        <p><img src="./images/file.png" alt="image" onclick="openModal()" /><span>25</span></p>
+
+                        <div id="modal" class="modal">
+                            <div class="modal-content">
+                                <span class="close" onclick="closeModal()">&times;</span>
+                                <input type="file" id="fileInput" multiple>
+                                <div id="treeView"></div>
+                            </div>
+                        </div>
+
+                        <p> <img src="./images/calender.png" alt="image" /><span>30-12-2022</span></p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div>
+                <div class="card">
+                    <!--Card Header-->
+                    <div class="cardHeader">
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+                    </div>
+                    <!--Card Body-->
+                    <div class="card-body">
+                        <div class="cardBody">
+                            <p class="clien"><span><img src="./images/layer.jpg" alt="layer" /></span> Lorem ipsum dolor
+                                sit amet, consectetur adipisicing elit. Vero modi repellat officiis in velit. Impedit
+                                saepe, sed corrupti, ratione eligendi sapiente sit ipsam quis.....</p>
+                            <p class="cardBody-text"><img src="./images/board.png" alt="image" /><span>1/2</span></p>
+                        </div>
+                    </div>
+                    <!--Card Footer-->
+                    <div class="cardFooter">
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                       <p id="one">12+</p>
+                        <p> <img src="./images/chat.png" alt="image" /><span>15</span></p>
+                        <p><img src="./images/file.png" alt="image" onclick="openModal()" /><span>25</span></p>
+
+                        <div id="modal" class="modal">
+                            <div class="modal-content">
+                                <span class="close" onclick="closeModal()">&times;</span>
+                                <input type="file" id="fileInput" multiple>
+                                <div id="treeView"></div>
+                            </div>
+                        </div>
+
+                        <p> <img src="./images/calender.png" alt="image" /><span>30-12-2022</span></p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="card">
+                    <!--Card Header-->
+                    <div class="cardHeader">
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+                    </div>
+                    <!--Card Body-->
+                    <div class="card-body">
+                        <div class="cardBody">
+                            <p class="clien"><span><img src="./images/layer.jpg" alt="layer" /></span> Lorem ipsum dolor
+                                sit amet, consectetur adipisicing elit. Vero modi repellat officiis in velit. Impedit
+                                saepe, sed corrupti, ratione eligendi sapiente sit ipsam quis.....</p>
+                            <p class="cardBody-text"><img src="./images/board.png" alt="image" /><span>1/2</span></p>
+                        </div>
+                    </div>
+                    <!--Card Footer-->
+                    <div class="cardFooter">
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                       <p id="one">12+</p>
+                        <p> <img src="./images/chat.png" alt="image" /><span>15</span></p>
+                        <p><img src="./images/file.png" alt="image" onclick="openModal()" /><span>25</span></p>
+
+                        <div id="modal" class="modal">
+                            <div class="modal-content">
+                                <span class="close" onclick="closeModal()">&times;</span>
+                                <input type="file" id="fileInput" multiple>
+                                <div id="treeView"></div>
+                            </div>
+                        </div>
+
+                        <p> <img src="./images/calender.png" alt="image" /><span>30-12-2022</span></p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="card">
+                    <!--Card Header-->
+                    <div class="cardHeader">
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+                    </div>
+                    <!--Card Body-->
+                    <div class="card-body">
+                        <div class="cardBody">
+                            <p class="clien"><span><img src="./images/layer.jpg" alt="layer" /></span> Lorem ipsum dolor
+                                sit amet, consectetur adipisicing elit. Vero modi repellat officiis in velit. Impedit
+                                saepe, sed corrupti, ratione eligendi sapiente sit ipsam quis.....</p>
+                            <p class="cardBody-text"><img src="./images/board.png" alt="image" /><span>1/2</span></p>
+                        </div>
+                    </div>
+                    <!--Card Footer-->
+                    <div class="cardFooter">
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                       <p id="one">12+</p>
+                        <p> <img src="./images/chat.png" alt="image" /><span>15</span></p>
+                        <p><img src="./images/file.png" alt="image" onclick="openModal()" /><span>25</span></p>
+
+                        <div id="modal" class="modal">
+                            <div class="modal-content">
+                                <span class="close" onclick="closeModal()">&times;</span>
+                                <input type="file" id="fileInput" multiple>
+                                <div id="treeView"></div>
+                            </div>
+                        </div>
+
+                        <p> <img src="./images/calender.png" alt="image" /><span>30-12-2022</span></p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="card">
+                    <!--Card Header-->
+                    <div class="cardHeader">
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+                    </div>
+                    <!--Card Body-->
+                    <div class="card-body">
+                        <div class="cardBody">
+                            <p class="clien"><span><img src="./images/layer.jpg" alt="layer" /></span> Lorem ipsum dolor
+                                sit amet, consectetur adipisicing elit. Vero modi repellat officiis in velit. Impedit
+                                saepe, sed corrupti, ratione eligendi sapiente sit ipsam quis.....</p>
+                            <p class="cardBody-text"><img src="./images/board.png" alt="image" /><span>1/2</span></p>
+                        </div>
+                    </div>
+                    <!--Card Footer-->
+                    <div class="cardFooter">
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                       <p id="one">12+</p>
+                        <p> <img src="./images/chat.png" alt="image" /><span>15</span></p>
+                        <p><img src="./images/file.png" alt="image" onclick="openModal()" /><span>25</span></p>
+
+                        <div id="modal" class="modal">
+                            <div class="modal-content">
+                                <span class="close" onclick="closeModal()">&times;</span>
+                                <input type="file" id="fileInput" multiple>
+                                <div id="treeView"></div>
+                            </div>
+                        </div>
+
+                        <p> <img src="./images/calender.png" alt="image" /><span>30-12-2022</span></p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div>
+                <div class="card">
+                    <!--Card Header-->
+                    <div class="cardHeader">
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+                    </div>
+                    <!--Card Body-->
+                    <div class="card-body">
+                        <div class="cardBody">
+                            <p class="clien"><span><img src="./images/layer.jpg" alt="layer" /></span> Lorem ipsum dolor
+                                sit amet, consectetur adipisicing elit. Vero modi repellat officiis in velit. Impedit
+                                saepe, sed corrupti, ratione eligendi sapiente sit ipsam quis.....</p>
+                            <p class="cardBody-text"><img src="./images/board.png" alt="image" /><span>1/2</span></p>
+                        </div>
+                    </div>
+                    <!--Card Footer-->
+                    <div class="cardFooter">
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                       <p id="one">12+</p>
+                        <p> <img src="./images/chat.png" alt="image" /><span>15</span></p>
+                        <p><img src="./images/file.png" alt="image" onclick="openModal()" /><span>25</span></p>
+
+                        <div id="modal" class="modal">
+                            <div class="modal-content">
+                                <span class="close" onclick="closeModal()">&times;</span>
+                                <input type="file" id="fileInput" multiple>
+                                <div id="treeView"></div>
+                            </div>
+                        </div>
+
+                        <p> <img src="./images/calender.png" alt="image" /><span>30-12-2022</span></p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="card">
+                    <!--Card Header-->
+                    <div class="cardHeader">
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+                    </div>
+                    <!--Card Body-->
+                    <div class="card-body">
+                        <div class="cardBody">
+                            <p class="clien"><span><img src="./images/layer.jpg" alt="layer" /></span> Lorem ipsum dolor
+                                sit amet, consectetur adipisicing elit. Vero modi repellat officiis in velit. Impedit
+                                saepe, sed corrupti, ratione eligendi sapiente sit ipsam quis.....</p>
+                            <p class="cardBody-text"><img src="./images/board.png" alt="image" /><span>1/2</span></p>
+                        </div>
+                    </div>
+                    <!--Card Footer-->
+                    <div class="cardFooter">
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                       <p id="one">12+</p>
+                        <p> <img src="./images/chat.png" alt="image" /><span>15</span></p>
+                        <p><img src="./images/file.png" alt="image" onclick="openModal()" /><span>25</span></p>
+
+                        <div id="modal" class="modal">
+                            <div class="modal-content">
+                                <span class="close" onclick="closeModal()">&times;</span>
+                                <input type="file" id="fileInput" multiple>
+                                <div id="treeView"></div>
+                            </div>
+                        </div>
+
+                        <p> <img src="./images/calender.png" alt="image" /><span>30-12-2022</span></p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="card">
+                    <!--Card Header-->
+                    <div class="cardHeader">
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+                    </div>
+                    <!--Card Body-->
+                    <div class="card-body">
+                        <div class="cardBody">
+                            <p class="clien"><span><img src="./images/layer.jpg" alt="layer" /></span> Lorem ipsum dolor
+                                sit amet, consectetur adipisicing elit. Vero modi repellat officiis in velit. Impedit
+                                saepe, sed corrupti, ratione eligendi sapiente sit ipsam quis.....</p>
+                            <p class="cardBody-text"><img src="./images/board.png" alt="image" /><span>1/2</span></p>
+                        </div>
+                    </div>
+                    <!--Card Footer-->
+                    <div class="cardFooter">
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                       <p id="one">12+</p>
+                        <p> <img src="./images/chat.png" alt="image" /><span>15</span></p>
+                        <p><img src="./images/file.png" alt="image" onclick="openModal()" /><span>25</span></p>
+
+                        <div id="modal" class="modal">
+                            <div class="modal-content">
+                                <span class="close" onclick="closeModal()">&times;</span>
+                                <input type="file" id="fileInput" multiple>
+                                <div id="treeView"></div>
+                            </div>
+                        </div>
+
+                        <p> <img src="./images/calender.png" alt="image" /><span>30-12-2022</span></p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="card">
+                    <!--Card Header-->
+                    <div class="cardHeader">
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+                    </div>
+                    <!--Card Body-->
+                    <div class="card-body">
+                        <div class="cardBody">
+                            <p class="clien"><span><img src="./images/layer.jpg" alt="layer" /></span> Lorem ipsum dolor
+                                sit amet, consectetur adipisicing elit. Vero modi repellat officiis in velit. Impedit
+                                saepe, sed corrupti, ratione eligendi sapiente sit ipsam quis.....</p>
+                            <p class="cardBody-text"><img src="./images/board.png" alt="image" /><span>1/2</span></p>
+                        </div>
+                    </div>
+                    <!--Card Footer-->
+                    <div class="cardFooter">
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                       <p id="one">12+</p>
+                        <p> <img src="./images/chat.png" alt="image" /><span>15</span></p>
+                        <p><img src="./images/file.png" alt="image" onclick="openModal()" /><span>25</span></p>
+                        <!--Modal &&  file Upload-->
+                        <div id="modal" class="modal">
+                            <div class="modal-content">
+                                <span class="close" onclick="closeModal()">&times;</span>
+                                <input type="file" id="fileInput" multiple>
+                                <div id="treeView"></div>
+                            </div>
+                        </div>
+
+                        <p> <img src="./images/calender.png" alt="image" /><span>30-12-2022</span></p>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </section>
+
+
+
+        <section class="cards">
+            <div class="card-top">
+                <div>
+                    <span id="yellow" class="semi-circle"></span>
+                    <p>Doing</p>
+                </div>
+                <div>
+                    <p>0</p>
+                </div>
+            </div>
+
+
+            <div>
+                <div class="card">
+                    <!--Card Header-->
+                    <div class="cardHeader">
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+                    </div>
+                    <!--Card Body-->
+                    <div class="card-body">
+                        <div class="cardBody">
+                            <p class="clien"><span><img src="./images/layer.jpg" alt="layer" /></span> Lorem ipsum dolor
+                                sit amet, consectetur adipisicing elit. Vero modi repellat officiis in velit. Impedit
+                                saepe, sed corrupti, ratione eligendi sapiente sit ipsam quis.....</p>
+                            <p class="cardBody-text"><img src="./images/board.png" alt="image" /><span>1/2</span></p>
+                        </div>
+                    </div>
+                    <!--Card Footer-->
+                    <div class="cardFooter">
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                       <p id="one">12+</p>
+                        <p> <img src="./images/chat.png" alt="image" /><span>15</span></p>
+                        <p><img src="./images/file.png" alt="image" onclick="openModal()" /><span>25</span></p>
+
+                        <div id="modal" class="modal">
+                            <div class="modal-content">
+                                <span class="close" onclick="closeModal()">&times;</span>
+                                <input type="file" id="fileInput" multiple>
+                                <div id="treeView"></div>
+                            </div>
+                        </div>
+
+                        <p> <img src="./images/calender.png" alt="image" /><span>30-12-2022</span></p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="card">
+                    <!--Card Header-->
+                    <div class="cardHeader">
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+                    </div>
+                    <!--Card Body-->
+                    <div class="card-body">
+                        <div class="cardBody">
+                            <p class="clien"><span><img src="./images/layer.jpg" alt="layer" /></span> Lorem ipsum dolor
+                                sit amet, consectetur adipisicing elit. Vero modi repellat officiis in velit. Impedit
+                                saepe, sed corrupti, ratione eligendi sapiente sit ipsam quis.....</p>
+                            <p class="cardBody-text"><img src="./images/board.png" alt="image" /><span>1/2</span></p>
+                        </div>
+                    </div>
+                    <!--Card Footer-->
+                    <div class="cardFooter">
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                       <p id="one">12+</p>
+                        <p> <img src="./images/chat.png" alt="image" /><span>15</span></p>
+                        <p><img src="./images/file.png" alt="image" onclick="openModal()" /><span>25</span></p>
+
+                        <div id="modal" class="modal">
+                            <div class="modal-content">
+                                <span class="close" onclick="closeModal()">&times;</span>
+                                <input type="file" id="fileInput" multiple>
+                                <div id="treeView"></div>
+                            </div>
+                        </div>
+
+                        <p> <img src="./images/calender.png" alt="image" /><span>30-12-2022</span></p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div>
+                <div class="card">
+                    <!--Card Header-->
+                    <div class="cardHeader">
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+                    </div>
+                    <!--Card Body-->
+                    <div class="card-body">
+                        <div class="cardBody">
+                            <p class="clien"><span><img src="./images/layer.jpg" alt="layer" /></span> Lorem ipsum dolor
+                                sit amet, consectetur adipisicing elit. Vero modi repellat officiis in velit. Impedit
+                                saepe, sed corrupti, ratione eligendi sapiente sit ipsam quis.....</p>
+                            <p class="cardBody-text"><img src="./images/board.png" alt="image" /><span>1/2</span></p>
+                        </div>
+                    </div>
+                    <!--Card Footer-->
+                    <div class="cardFooter">
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                       <p id="one">12+</p>
+                        <p> <img src="./images/chat.png" alt="image" /><span>15</span></p>
+                        <p><img src="./images/file.png" alt="image" onclick="openModal()" /><span>25</span></p>
+
+                        <div id="modal" class="modal">
+                            <div class="modal-content">
+                                <span class="close" onclick="closeModal()">&times;</span>
+                                <input type="file" id="fileInput" multiple>
+                                <div id="treeView"></div>
+                            </div>
+                        </div>
+
+                        <p> <img src="./images/calender.png" alt="image" /><span>30-12-2022</span></p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="card">
+                    <!--Card Header-->
+                    <div class="cardHeader">
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+                    </div>
+                    <!--Card Body-->
+                    <div class="card-body">
+                        <div class="cardBody">
+                            <p class="clien"><span><img src="./images/layer.jpg" alt="layer" /></span> Lorem ipsum dolor
+                                sit amet, consectetur adipisicing elit. Vero modi repellat officiis in velit. Impedit
+                                saepe, sed corrupti, ratione eligendi sapiente sit ipsam quis.....</p>
+                            <p class="cardBody-text"><img src="./images/board.png" alt="image" /><span>1/2</span></p>
+                        </div>
+                    </div>
+                    <!--Card Footer-->
+                    <div class="cardFooter">
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                       <p id="one">12+</p>
+                        <p> <img src="./images/chat.png" alt="image" /><span>15</span></p>
+                        <p><img src="./images/file.png" alt="image" onclick="openModal()" /><span>25</span></p>
+
+                        <div id="modal" class="modal">
+                            <div class="modal-content">
+                                <span class="close" onclick="closeModal()">&times;</span>
+                                <input type="file" id="fileInput" multiple>
+                                <div id="treeView"></div>
+                            </div>
+                        </div>
+
+                        <p> <img src="./images/calender.png" alt="image" /><span>30-12-2022</span></p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="card">
+                    <!--Card Header-->
+                    <div class="cardHeader">
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+                    </div>
+                    <!--Card Body-->
+                    <div class="card-body">
+                        <div class="cardBody">
+                            <p class="clien"><span><img src="./images/layer.jpg" alt="layer" /></span> Lorem ipsum dolor
+                                sit amet, consectetur adipisicing elit. Vero modi repellat officiis in velit. Impedit
+                                saepe, sed corrupti, ratione eligendi sapiente sit ipsam quis.....</p>
+                            <p class="cardBody-text"><img src="./images/board.png" alt="image" /><span>1/2</span></p>
+                        </div>
+                    </div>
+                    <!--Card Footer-->
+                    <div class="cardFooter">
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                       <p id="one">12+</p>
+                        <p> <img src="./images/chat.png" alt="image" /><span>15</span></p>
+                        <p><img src="./images/file.png" alt="image" onclick="openModal()" /><span>25</span></p>
+
+                        <div id="modal" class="modal">
+                            <div class="modal-content">
+                                <span class="close" onclick="closeModal()">&times;</span>
+                                <input type="file" id="fileInput" multiple>
+                                <div id="treeView"></div>
+                            </div>
+                        </div>
+
+                        <p> <img src="./images/calender.png" alt="image" /><span>30-12-2022</span></p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="card">
+                    <!--Card Header-->
+                    <div class="cardHeader">
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+                    </div>
+                    <!--Card Body-->
+                    <div class="card-body">
+                        <div class="cardBody">
+                            <p class="clien"><span><img src="./images/layer.jpg" alt="layer" /></span> Lorem ipsum dolor
+                                sit amet, consectetur adipisicing elit. Vero modi repellat officiis in velit. Impedit
+                                saepe, sed corrupti, ratione eligendi sapiente sit ipsam quis.....</p>
+                            <p class="cardBody-text"><img src="./images/board.png" alt="image" /><span>1/2</span></p>
+                        </div>
+                    </div>
+                    <!--Card Footer-->
+                    <div class="cardFooter">
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                       <p id="one">12+</p>
+                        <p> <img src="./images/chat.png" alt="image" /><span>15</span></p>
+                        <p><img src="./images/file.png" alt="image" onclick="openModal()" /><span>25</span></p>
+
+                        <div id="modal" class="modal">
+                            <div class="modal-content">
+                                <span class="close" onclick="closeModal()">&times;</span>
+                                <input type="file" id="fileInput" multiple>
+                                <div id="treeView"></div>
+                            </div>
+                        </div>
+
+                        <p> <img src="./images/calender.png" alt="image" /><span>30-12-2022</span></p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div>
+                <div class="card">
+                    <!--Card Header-->
+                    <div class="cardHeader">
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+                    </div>
+                    <!--Card Body-->
+                    <div class="card-body">
+                        <div class="cardBody">
+                            <p class="clien"><span><img src="./images/layer.jpg" alt="layer" /></span> Lorem ipsum dolor
+                                sit amet, consectetur adipisicing elit. Vero modi repellat officiis in velit. Impedit
+                                saepe, sed corrupti, ratione eligendi sapiente sit ipsam quis.....</p>
+                            <p class="cardBody-text"><img src="./images/board.png" alt="image" /><span>1/2</span></p>
+                        </div>
+                    </div>
+                    <!--Card Footer-->
+                    <div class="cardFooter">
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                       <p id="one">12+</p>
+                        <p> <img src="./images/chat.png" alt="image" /><span>15</span></p>
+                        <p><img src="./images/file.png" alt="image" onclick="openModal()" /><span>25</span></p>
+
+                        <div id="modal" class="modal">
+                            <div class="modal-content">
+                                <span class="close" onclick="closeModal()">&times;</span>
+                                <input type="file" id="fileInput" multiple>
+                                <div id="treeView"></div>
+                            </div>
+                        </div>
+
+                        <p> <img src="./images/calender.png" alt="image" /><span>30-12-2022</span></p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="card">
+                    <!--Card Header-->
+                    <div class="cardHeader">
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+                    </div>
+                    <!--Card Body-->
+                    <div class="card-body">
+                        <div class="cardBody">
+                            <p class="clien"><span><img src="./images/layer.jpg" alt="layer" /></span> Lorem ipsum dolor
+                                sit amet, consectetur adipisicing elit. Vero modi repellat officiis in velit. Impedit
+                                saepe, sed corrupti, ratione eligendi sapiente sit ipsam quis.....</p>
+                            <p class="cardBody-text"><img src="./images/board.png" alt="image" /><span>1/2</span></p>
+                        </div>
+                    </div>
+                    <!--Card Footer-->
+                    <div class="cardFooter">
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                       <p id="one">12+</p>
+                        <p> <img src="./images/chat.png" alt="image" /><span>15</span></p>
+                        <p><img src="./images/file.png" alt="image" onclick="openModal()" /><span>25</span></p>
+
+                        <div id="modal" class="modal">
+                            <div class="modal-content">
+                                <span class="close" onclick="closeModal()">&times;</span>
+                                <input type="file" id="fileInput" multiple>
+                                <div id="treeView"></div>
+                            </div>
+                        </div>
+
+                        <p> <img src="./images/calender.png" alt="image" /><span>30-12-2022</span></p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="card">
+                    <!--Card Header-->
+                    <div class="cardHeader">
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+                    </div>
+                    <!--Card Body-->
+                    <div class="card-body">
+                        <div class="cardBody">
+                            <p class="clien"><span><img src="./images/layer.jpg" alt="layer" /></span> Lorem ipsum dolor
+                                sit amet, consectetur adipisicing elit. Vero modi repellat officiis in velit. Impedit
+                                saepe, sed corrupti, ratione eligendi sapiente sit ipsam quis.....</p>
+                            <p class="cardBody-text"><img src="./images/board.png" alt="image" /><span>1/2</span></p>
+                        </div>
+                    </div>
+                    <!--Card Footer-->
+                    <div class="cardFooter">
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                       <p id="one">12+</p>
+                        <p> <img src="./images/chat.png" alt="image" /><span>15</span></p>
+                        <p><img src="./images/file.png" alt="image" onclick="openModal()" /><span>25</span></p>
+
+                        <div id="modal" class="modal">
+                            <div class="modal-content">
+                                <span class="close" onclick="closeModal()">&times;</span>
+                                <input type="file" id="fileInput" multiple>
+                                <div id="treeView"></div>
+                            </div>
+                        </div>
+
+                        <p> <img src="./images/calender.png" alt="image" /><span>30-12-2022</span></p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="card">
+                    <!--Card Header-->
+                    <div class="cardHeader">
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+                    </div>
+                    <!--Card Body-->
+                    <div class="card-body">
+                        <div class="cardBody">
+                            <p class="clien"><span><img src="./images/layer.jpg" alt="layer" /></span> Lorem ipsum dolor
+                                sit amet, consectetur adipisicing elit. Vero modi repellat officiis in velit. Impedit
+                                saepe, sed corrupti, ratione eligendi sapiente sit ipsam quis.....</p>
+                            <p class="cardBody-text"><img src="./images/board.png" alt="image" /><span>1/2</span></p>
+                        </div>
+                    </div>
+                    <!--Card Footer-->
+                    <div class="cardFooter">
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                       <p id="one">12+</p>
+                        <p> <img src="./images/chat.png" alt="image" /><span>15</span></p>
+                        <p><img src="./images/file.png" alt="image" onclick="openModal()" /><span>25</span></p>
+                        <!--Modal &&  file Upload-->
+                        <div id="modal" class="modal">
+                            <div class="modal-content">
+                                <span class="close" onclick="closeModal()">&times;</span>
+                                <input type="file" id="fileInput" multiple>
+                                <div id="treeView"></div>
+                            </div>
+                        </div>
+
+                        <p> <img src="./images/calender.png" alt="image" /><span>30-12-2022</span></p>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </section>
+
+
+
+        <section class="cards">
+            <div class="card-top">
+                <p>Under Review</p>
+                <p>0</p>
+            </div>
+
+
+            <div>
+                <div class="card">
+                    <!--Card Header-->
+                    <div class="cardHeader">
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+                    </div>
+                    <!--Card Body-->
+                    <div class="card-body">
+                        <div class="cardBody">
+                            <p class="clien"><span><img src="./images/layer.jpg" alt="layer" /></span> Lorem ipsum dolor
+                                sit amet, consectetur adipisicing elit. Vero modi repellat officiis in velit. Impedit
+                                saepe, sed corrupti, ratione eligendi sapiente sit ipsam quis.....</p>
+                            <p class="cardBody-text"><img src="./images/board.png" alt="image" /><span>1/2</span></p>
+                        </div>
+                    </div>
+                    <!--Card Footer-->
+                    <div class="cardFooter">
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                       <p id="one">12+</p>
+                        <p> <img src="./images/chat.png" alt="image" /><span>15</span></p>
+                        <p><img src="./images/file.png" alt="image" onclick="openModal()" /><span>25</span></p>
+
+                        <div id="modal" class="modal">
+                            <div class="modal-content">
+                                <span class="close" onclick="closeModal()">&times;</span>
+                                <input type="file" id="fileInput" multiple>
+                                <div id="treeView"></div>
+                            </div>
+                        </div>
+
+                        <p> <img src="./images/calender.png" alt="image" /><span>30-12-2022</span></p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="card">
+                    <!--Card Header-->
+                    <div class="cardHeader">
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+                    </div>
+                    <!--Card Body-->
+                    <div class="card-body">
+                        <div class="cardBody">
+                            <p class="clien"><span><img src="./images/layer.jpg" alt="layer" /></span> Lorem ipsum dolor
+                                sit amet, consectetur adipisicing elit. Vero modi repellat officiis in velit. Impedit
+                                saepe, sed corrupti, ratione eligendi sapiente sit ipsam quis.....</p>
+                            <p class="cardBody-text"><img src="./images/board.png" alt="image" /><span>1/2</span></p>
+                        </div>
+                    </div>
+                    <!--Card Footer-->
+                    <div class="cardFooter">
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                       <p id="one">12+</p>
+                        <p> <img src="./images/chat.png" alt="image" /><span>15</span></p>
+                        <p><img src="./images/file.png" alt="image" onclick="openModal()" /><span>25</span></p>
+
+                        <div id="modal" class="modal">
+                            <div class="modal-content">
+                                <span class="close" onclick="closeModal()">&times;</span>
+                                <input type="file" id="fileInput" multiple>
+                                <div id="treeView"></div>
+                            </div>
+                        </div>
+
+                        <p> <img src="./images/calender.png" alt="image" /><span>30-12-2022</span></p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div>
+                <div class="card">
+                    <!--Card Header-->
+                    <div class="cardHeader">
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+                    </div>
+                    <!--Card Body-->
+                    <div class="card-body">
+                        <div class="cardBody">
+                            <p class="clien"><span><img src="./images/layer.jpg" alt="layer" /></span> Lorem ipsum dolor
+                                sit amet, consectetur adipisicing elit. Vero modi repellat officiis in velit. Impedit
+                                saepe, sed corrupti, ratione eligendi sapiente sit ipsam quis.....</p>
+                            <p class="cardBody-text"><img src="./images/board.png" alt="image" /><span>1/2</span></p>
+                        </div>
+                    </div>
+                    <!--Card Footer-->
+                    <div class="cardFooter">
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                       <p id="one">12+</p>
+                        <p> <img src="./images/chat.png" alt="image" /><span>15</span></p>
+                        <p><img src="./images/file.png" alt="image" onclick="openModal()" /><span>25</span></p>
+
+                        <div id="modal" class="modal">
+                            <div class="modal-content">
+                                <span class="close" onclick="closeModal()">&times;</span>
+                                <input type="file" id="fileInput" multiple>
+                                <div id="treeView"></div>
+                            </div>
+                        </div>
+
+                        <p> <img src="./images/calender.png" alt="image" /><span>30-12-2022</span></p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="card">
+                    <!--Card Header-->
+                    <div class="cardHeader">
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+                    </div>
+                    <!--Card Body-->
+                    <div class="card-body">
+                        <div class="cardBody">
+                            <p class="clien"><span><img src="./images/layer.jpg" alt="layer" /></span> Lorem ipsum dolor
+                                sit amet, consectetur adipisicing elit. Vero modi repellat officiis in velit. Impedit
+                                saepe, sed corrupti, ratione eligendi sapiente sit ipsam quis.....</p>
+                            <p class="cardBody-text"><img src="./images/board.png" alt="image" /><span>1/2</span></p>
+                        </div>
+                    </div>
+                    <!--Card Footer-->
+                    <div class="cardFooter">
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                       <p id="one">12+</p>
+                        <p> <img src="./images/chat.png" alt="image" /><span>15</span></p>
+                        <p><img src="./images/file.png" alt="image" onclick="openModal()" /><span>25</span></p>
+
+                        <div id="modal" class="modal">
+                            <div class="modal-content">
+                                <span class="close" onclick="closeModal()">&times;</span>
+                                <input type="file" id="fileInput" multiple>
+                                <div id="treeView"></div>
+                            </div>
+                        </div>
+
+                        <p> <img src="./images/calender.png" alt="image" /><span>30-12-2022</span></p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="card">
+                    <!--Card Header-->
+                    <div class="cardHeader">
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+                    </div>
+                    <!--Card Body-->
+                    <div class="card-body">
+                        <div class="cardBody">
+                            <p class="clien"><span><img src="./images/layer.jpg" alt="layer" /></span> Lorem ipsum dolor
+                                sit amet, consectetur adipisicing elit. Vero modi repellat officiis in velit. Impedit
+                                saepe, sed corrupti, ratione eligendi sapiente sit ipsam quis.....</p>
+                            <p class="cardBody-text"><img src="./images/board.png" alt="image" /><span>1/2</span></p>
+                        </div>
+                    </div>
+                    <!--Card Footer-->
+                    <div class="cardFooter">
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                       <p id="one">12+</p>
+                        <p> <img src="./images/chat.png" alt="image" /><span>15</span></p>
+                        <p><img src="./images/file.png" alt="image" onclick="openModal()" /><span>25</span></p>
+
+                        <div id="modal" class="modal">
+                            <div class="modal-content">
+                                <span class="close" onclick="closeModal()">&times;</span>
+                                <input type="file" id="fileInput" multiple>
+                                <div id="treeView"></div>
+                            </div>
+                        </div>
+
+                        <p> <img src="./images/calender.png" alt="image" /><span>30-12-2022</span></p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="card">
+                    <!--Card Header-->
+                    <div class="cardHeader">
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+                    </div>
+                    <!--Card Body-->
+                    <div class="card-body">
+                        <div class="cardBody">
+                            <p class="clien"><span><img src="./images/layer.jpg" alt="layer" /></span> Lorem ipsum dolor
+                                sit amet, consectetur adipisicing elit. Vero modi repellat officiis in velit. Impedit
+                                saepe, sed corrupti, ratione eligendi sapiente sit ipsam quis.....</p>
+                            <p class="cardBody-text"><img src="./images/board.png" alt="image" /><span>1/2</span></p>
+                        </div>
+                    </div>
+                    <!--Card Footer-->
+                    <div class="cardFooter">
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                       <p id="one">12+</p>
+                        <p> <img src="./images/chat.png" alt="image" /><span>15</span></p>
+                        <p><img src="./images/file.png" alt="image" onclick="openModal()" /><span>25</span></p>
+
+                        <div id="modal" class="modal">
+                            <div class="modal-content">
+                                <span class="close" onclick="closeModal()">&times;</span>
+                                <input type="file" id="fileInput" multiple>
+                                <div id="treeView"></div>
+                            </div>
+                        </div>
+
+                        <p> <img src="./images/calender.png" alt="image" /><span>30-12-2022</span></p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div>
+                <div class="card">
+                    <!--Card Header-->
+                    <div class="cardHeader">
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+                    </div>
+                    <!--Card Body-->
+                    <div class="card-body">
+                        <div class="cardBody">
+                            <p class="clien"><span><img src="./images/layer.jpg" alt="layer" /></span> Lorem ipsum dolor
+                                sit amet, consectetur adipisicing elit. Vero modi repellat officiis in velit. Impedit
+                                saepe, sed corrupti, ratione eligendi sapiente sit ipsam quis.....</p>
+                            <p class="cardBody-text"><img src="./images/board.png" alt="image" /><span>1/2</span></p>
+                        </div>
+                    </div>
+                    <!--Card Footer-->
+                    <div class="cardFooter">
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                       <p id="one">12+</p>
+                        <p> <img src="./images/chat.png" alt="image" /><span>15</span></p>
+                        <p><img src="./images/file.png" alt="image" onclick="openModal()" /><span>25</span></p>
+
+                        <div id="modal" class="modal">
+                            <div class="modal-content">
+                                <span class="close" onclick="closeModal()">&times;</span>
+                                <input type="file" id="fileInput" multiple>
+                                <div id="treeView"></div>
+                            </div>
+                        </div>
+
+                        <p> <img src="./images/calender.png" alt="image" /><span>30-12-2022</span></p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="card">
+                    <!--Card Header-->
+                    <div class="cardHeader">
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+                    </div>
+                    <!--Card Body-->
+                    <div class="card-body">
+                        <div class="cardBody">
+                            <p class="clien"><span><img src="./images/layer.jpg" alt="layer" /></span> Lorem ipsum dolor
+                                sit amet, consectetur adipisicing elit. Vero modi repellat officiis in velit. Impedit
+                                saepe, sed corrupti, ratione eligendi sapiente sit ipsam quis.....</p>
+                            <p class="cardBody-text"><img src="./images/board.png" alt="image" /><span>1/2</span></p>
+                        </div>
+                    </div>
+                    <!--Card Footer-->
+                    <div class="cardFooter">
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                       <p id="one">12+</p>
+                        <p> <img src="./images/chat.png" alt="image" /><span>15</span></p>
+                        <p><img src="./images/file.png" alt="image" onclick="openModal()" /><span>25</span></p>
+
+                        <div id="modal" class="modal">
+                            <div class="modal-content">
+                                <span class="close" onclick="closeModal()">&times;</span>
+                                <input type="file" id="fileInput" multiple>
+                                <div id="treeView"></div>
+                            </div>
+                        </div>
+
+                        <p> <img src="./images/calender.png" alt="image" /><span>30-12-2022</span></p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="card">
+                    <!--Card Header-->
+                    <div class="cardHeader">
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+                    </div>
+                    <!--Card Body-->
+                    <div class="card-body">
+                        <div class="cardBody">
+                            <p class="clien"><span><img src="./images/layer.jpg" alt="layer" /></span> Lorem ipsum dolor
+                                sit amet, consectetur adipisicing elit. Vero modi repellat officiis in velit. Impedit
+                                saepe, sed corrupti, ratione eligendi sapiente sit ipsam quis.....</p>
+                            <p class="cardBody-text"><img src="./images/board.png" alt="image" /><span>1/2</span></p>
+                        </div>
+                    </div>
+                    <!--Card Footer-->
+                    <div class="cardFooter">
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                       <p id="one">12+</p>
+                        <p> <img src="./images/chat.png" alt="image" /><span>15</span></p>
+                        <p><img src="./images/file.png" alt="image" onclick="openModal()" /><span>25</span></p>
+
+                        <div id="modal" class="modal">
+                            <div class="modal-content">
+                                <span class="close" onclick="closeModal()">&times;</span>
+                                <input type="file" id="fileInput" multiple>
+                                <div id="treeView"></div>
+                            </div>
+                        </div>
+
+                        <p> <img src="./images/calender.png" alt="image" /><span>30-12-2022</span></p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="card">
+                    <!--Card Header-->
+                    <div class="cardHeader">
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+                    </div>
+                    <!--Card Body-->
+                    <div class="card-body">
+                        <div class="cardBody">
+                            <p class="clien"><span><img src="./images/layer.jpg" alt="layer" /></span> Lorem ipsum dolor
+                                sit amet, consectetur adipisicing elit. Vero modi repellat officiis in velit. Impedit
+                                saepe, sed corrupti, ratione eligendi sapiente sit ipsam quis.....</p>
+                            <p class="cardBody-text"><img src="./images/board.png" alt="image" /><span>1/2</span></p>
+                        </div>
+                    </div>
+                    <!--Card Footer-->
+                    <div class="cardFooter">
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                       <p id="one">12+</p>
+                        <p> <img src="./images/chat.png" alt="image" /><span>15</span></p>
+                        <p><img src="./images/file.png" alt="image" onclick="openModal()" /><span>25</span></p>
+                        <!--Modal &&  file Upload-->
+                        <div id="modal" class="modal">
+                            <div class="modal-content">
+                                <span class="close" onclick="closeModal()">&times;</span>
+                                <input type="file" id="fileInput" multiple>
+                                <div id="treeView"></div>
+                            </div>
+                        </div>
+
+                        <p> <img src="./images/calender.png" alt="image" /><span>30-12-2022</span></p>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </section>
+
+
+
+        <section class="cards">
+            <div class="card-top">
+                <p>Completed</p>
+                <p>0</p>
+            </div>
+
+
+            <div>
+                <div class="card">
+                    <!--Card Header-->
+                    <div class="cardHeader">
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+                    </div>
+                    <!--Card Body-->
+                    <div class="card-body">
+                        <div class="cardBody">
+                            <p class="clien"><span><img src="./images/layer.jpg" alt="layer" /></span> Lorem ipsum dolor
+                                sit amet, consectetur adipisicing elit. Vero modi repellat officiis in velit. Impedit
+                                saepe, sed corrupti, ratione eligendi sapiente sit ipsam quis.....</p>
+                            <p class="cardBody-text"><img src="./images/board.png" alt="image" /><span>1/2</span></p>
+                        </div>
+                    </div>
+                    <!--Card Footer-->
+                    <div class="cardFooter">
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                       <p id="one">12+</p>
+                        <p> <img src="./images/chat.png" alt="image" /><span>15</span></p>
+                        <p><img src="./images/file.png" alt="image" onclick="openModal()" /><span>25</span></p>
+
+                        <div id="modal" class="modal">
+                            <div class="modal-content">
+                                <span class="close" onclick="closeModal()">&times;</span>
+                                <input type="file" id="fileInput" multiple>
+                                <div id="treeView"></div>
+                            </div>
+                        </div>
+
+                        <p> <img src="./images/calender.png" alt="image" /><span>30-12-2022</span></p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="card">
+                    <!--Card Header-->
+                    <div class="cardHeader">
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+                    </div>
+                    <!--Card Body-->
+                    <div class="card-body">
+                        <div class="cardBody">
+                            <p class="clien"><span><img src="./images/layer.jpg" alt="layer" /></span> Lorem ipsum dolor
+                                sit amet, consectetur adipisicing elit. Vero modi repellat officiis in velit. Impedit
+                                saepe, sed corrupti, ratione eligendi sapiente sit ipsam quis.....</p>
+                            <p class="cardBody-text"><img src="./images/board.png" alt="image" /><span>1/2</span></p>
+                        </div>
+                    </div>
+                    <!--Card Footer-->
+                    <div class="cardFooter">
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                       <p id="one">12+</p>
+                        <p> <img src="./images/chat.png" alt="image" /><span>15</span></p>
+                        <p><img src="./images/file.png" alt="image" onclick="openModal()" /><span>25</span></p>
+
+                        <div id="modal" class="modal">
+                            <div class="modal-content">
+                                <span class="close" onclick="closeModal()">&times;</span>
+                                <input type="file" id="fileInput" multiple>
+                                <div id="treeView"></div>
+                            </div>
+                        </div>
+
+                        <p> <img src="./images/calender.png" alt="image" /><span>30-12-2022</span></p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div>
+                <div class="card">
+                    <!--Card Header-->
+                    <div class="cardHeader">
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+                    </div>
+                    <!--Card Body-->
+                    <div class="card-body">
+                        <div class="cardBody">
+                            <p class="clien"><span><img src="./images/layer.jpg" alt="layer" /></span> Lorem ipsum dolor
+                                sit amet, consectetur adipisicing elit. Vero modi repellat officiis in velit. Impedit
+                                saepe, sed corrupti, ratione eligendi sapiente sit ipsam quis.....</p>
+                            <p class="cardBody-text"><img src="./images/board.png" alt="image" /><span>1/2</span></p>
+                        </div>
+                    </div>
+                    <!--Card Footer-->
+                    <div class="cardFooter">
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                       <p id="one">12+</p>
+                        <p> <img src="./images/chat.png" alt="image" /><span>15</span></p>
+                        <p><img src="./images/file.png" alt="image" onclick="openModal()" /><span>25</span></p>
+
+                        <div id="modal" class="modal">
+                            <div class="modal-content">
+                                <span class="close" onclick="closeModal()">&times;</span>
+                                <input type="file" id="fileInput" multiple>
+                                <div id="treeView"></div>
+                            </div>
+                        </div>
+
+                        <p> <img src="./images/calender.png" alt="image" /><span>30-12-2022</span></p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="card">
+                    <!--Card Header-->
+                    <div class="cardHeader">
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+                    </div>
+                    <!--Card Body-->
+                    <div class="card-body">
+                        <div class="cardBody">
+                            <p class="clien"><span><img src="./images/layer.jpg" alt="layer" /></span> Lorem ipsum dolor
+                                sit amet, consectetur adipisicing elit. Vero modi repellat officiis in velit. Impedit
+                                saepe, sed corrupti, ratione eligendi sapiente sit ipsam quis.....</p>
+                            <p class="cardBody-text"><img src="./images/board.png" alt="image" /><span>1/2</span></p>
+                        </div>
+                    </div>
+                    <!--Card Footer-->
+                    <div class="cardFooter">
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                       <p id="one">12+</p>
+                        <p> <img src="./images/chat.png" alt="image" /><span>15</span></p>
+                        <p><img src="./images/file.png" alt="image" onclick="openModal()" /><span>25</span></p>
+
+                        <div id="modal" class="modal">
+                            <div class="modal-content">
+                                <span class="close" onclick="closeModal()">&times;</span>
+                                <input type="file" id="fileInput" multiple>
+                                <div id="treeView"></div>
+                            </div>
+                        </div>
+
+                        <p> <img src="./images/calender.png" alt="image" /><span>30-12-2022</span></p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="card">
+                    <!--Card Header-->
+                    <div class="cardHeader">
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+                    </div>
+                    <!--Card Body-->
+                    <div class="card-body">
+                        <div class="cardBody">
+                            <p class="clien"><span><img src="./images/layer.jpg" alt="layer" /></span> Lorem ipsum dolor
+                                sit amet, consectetur adipisicing elit. Vero modi repellat officiis in velit. Impedit
+                                saepe, sed corrupti, ratione eligendi sapiente sit ipsam quis.....</p>
+                            <p class="cardBody-text"><img src="./images/board.png" alt="image" /><span>1/2</span></p>
+                        </div>
+                    </div>
+                    <!--Card Footer-->
+                    <div class="cardFooter">
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                       <p id="one">12+</p>
+                        <p> <img src="./images/chat.png" alt="image" /><span>15</span></p>
+                        <p><img src="./images/file.png" alt="image" onclick="openModal()" /><span>25</span></p>
+
+                        <div id="modal" class="modal">
+                            <div class="modal-content">
+                                <span class="close" onclick="closeModal()">&times;</span>
+                                <input type="file" id="fileInput" multiple>
+                                <div id="treeView"></div>
+                            </div>
+                        </div>
+
+                        <p> <img src="./images/calender.png" alt="image" /><span>30-12-2022</span></p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="card">
+                    <!--Card Header-->
+                    <div class="cardHeader">
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+                    </div>
+                    <!--Card Body-->
+                    <div class="card-body">
+                        <div class="cardBody">
+                            <p class="clien"><span><img src="./images/layer.jpg" alt="layer" /></span> Lorem ipsum dolor
+                                sit amet, consectetur adipisicing elit. Vero modi repellat officiis in velit. Impedit
+                                saepe, sed corrupti, ratione eligendi sapiente sit ipsam quis.....</p>
+                            <p class="cardBody-text"><img src="./images/board.png" alt="image" /><span>1/2</span></p>
+                        </div>
+                    </div>
+                    <!--Card Footer-->
+                    <div class="cardFooter">
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                       <p id="one">12+</p>
+                        <p> <img src="./images/chat.png" alt="image" /><span>15</span></p>
+                        <p><img src="./images/file.png" alt="image" onclick="openModal()" /><span>25</span></p>
+
+                        <div id="modal" class="modal">
+                            <div class="modal-content">
+                                <span class="close" onclick="closeModal()">&times;</span>
+                                <input type="file" id="fileInput" multiple>
+                                <div id="treeView"></div>
+                            </div>
+                        </div>
+
+                        <p> <img src="./images/calender.png" alt="image" /><span>30-12-2022</span></p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div>
+                <div class="card">
+                    <!--Card Header-->
+                    <div class="cardHeader">
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+                    </div>
+                    <!--Card Body-->
+                    <div class="card-body">
+                        <div class="cardBody">
+                            <p class="clien"><span><img src="./images/layer.jpg" alt="layer" /></span> Lorem ipsum dolor
+                                sit amet, consectetur adipisicing elit. Vero modi repellat officiis in velit. Impedit
+                                saepe, sed corrupti, ratione eligendi sapiente sit ipsam quis.....</p>
+                            <p class="cardBody-text"><img src="./images/board.png" alt="image" /><span>1/2</span></p>
+                        </div>
+                    </div>
+                    <!--Card Footer-->
+                    <div class="cardFooter">
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                       <p id="one">12+</p>
+                        <p> <img src="./images/chat.png" alt="image" /><span>15</span></p>
+                        <p><img src="./images/file.png" alt="image" onclick="openModal()" /><span>25</span></p>
+
+                        <div id="modal" class="modal">
+                            <div class="modal-content">
+                                <span class="close" onclick="closeModal()">&times;</span>
+                                <input type="file" id="fileInput" multiple>
+                                <div id="treeView"></div>
+                            </div>
+                        </div>
+
+                        <p> <img src="./images/calender.png" alt="image" /><span>30-12-2022</span></p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="card">
+                    <!--Card Header-->
+                    <div class="cardHeader">
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+                    </div>
+                    <!--Card Body-->
+                    <div class="card-body">
+                        <div class="cardBody">
+                            <p class="clien"><span><img src="./images/layer.jpg" alt="layer" /></span> Lorem ipsum dolor
+                                sit amet, consectetur adipisicing elit. Vero modi repellat officiis in velit. Impedit
+                                saepe, sed corrupti, ratione eligendi sapiente sit ipsam quis.....</p>
+                            <p class="cardBody-text"><img src="./images/board.png" alt="image" /><span>1/2</span></p>
+                        </div>
+                    </div>
+                    <!--Card Footer-->
+                    <div class="cardFooter">
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                       <p id="one">12+</p>
+                        <p> <img src="./images/chat.png" alt="image" /><span>15</span></p>
+                        <p><img src="./images/file.png" alt="image" onclick="openModal()" /><span>25</span></p>
+
+                        <div id="modal" class="modal">
+                            <div class="modal-content">
+                                <span class="close" onclick="closeModal()">&times;</span>
+                                <input type="file" id="fileInput" multiple>
+                                <div id="treeView"></div>
+                            </div>
+                        </div>
+
+                        <p> <img src="./images/calender.png" alt="image" /><span>30-12-2022</span></p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="card">
+                    <!--Card Header-->
+                    <div class="cardHeader">
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+                    </div>
+                    <!--Card Body-->
+                    <div class="card-body">
+                        <div class="cardBody">
+                            <p class="clien"><span><img src="./images/layer.jpg" alt="layer" /></span> Lorem ipsum dolor
+                                sit amet, consectetur adipisicing elit. Vero modi repellat officiis in velit. Impedit
+                                saepe, sed corrupti, ratione eligendi sapiente sit ipsam quis.....</p>
+                            <p class="cardBody-text"><img src="./images/board.png" alt="image" /><span>1/2</span></p>
+                        </div>
+                    </div>
+                    <!--Card Footer-->
+                    <div class="cardFooter">
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                       <p id="one">12+</p>
+                        <p> <img src="./images/chat.png" alt="image" /><span>15</span></p>
+                        <p><img src="./images/file.png" alt="image" onclick="openModal()" /><span>25</span></p>
+
+                        <div id="modal" class="modal">
+                            <div class="modal-content">
+                                <span class="close" onclick="closeModal()">&times;</span>
+                                <input type="file" id="fileInput" multiple>
+                                <div id="treeView"></div>
+                            </div>
+                        </div>
+
+                        <p> <img src="./images/calender.png" alt="image" /><span>30-12-2022</span></p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="card">
+                    <!--Card Header-->
+                    <div class="cardHeader">
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+                    </div>
+                    <!--Card Body-->
+                    <div class="card-body">
+                        <div class="cardBody">
+                            <p class="clien"><span><img src="./images/layer.jpg" alt="layer" /></span> Lorem ipsum dolor
+                                sit amet, consectetur adipisicing elit. Vero modi repellat officiis in velit. Impedit
+                                saepe, sed corrupti, ratione eligendi sapiente sit ipsam quis.....</p>
+                            <p class="cardBody-text"><img src="./images/board.png" alt="image" /><span>1/2</span></p>
+                        </div>
+                    </div>
+                    <!--Card Footer-->
+                    <div class="cardFooter">
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                       <p id="one">12+</p>
+                        <p> <img src="./images/chat.png" alt="image" /><span>15</span></p>
+                        <p><img src="./images/file.png" alt="image" onclick="openModal()" /><span>25</span></p>
+                        <!--Modal &&  file Upload-->
+                        <div id="modal" class="modal">
+                            <div class="modal-content">
+                                <span class="close" onclick="closeModal()">&times;</span>
+                                <input type="file" id="fileInput" multiple>
+                                <div id="treeView"></div>
+                            </div>
+                        </div>
+
+                        <p> <img src="./images/calender.png" alt="image" /><span>30-12-2022</span></p>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </section>
+
+
+
+        <section class="cards">
+            <div class="card-top">
+                <p>Underdew</p>
+                <p>0</p>
+            </div>
+
+
+            <div>
+                <div class="card">
+                    <!--Card Header-->
+                    <div class="cardHeader">
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+                    </div>
+                    <!--Card Body-->
+                    <div class="card-body">
+                        <div class="cardBody">
+                            <p class="clien"><span><img src="./images/layer.jpg" alt="layer" /></span> Lorem ipsum dolor
+                                sit amet, consectetur adipisicing elit. Vero modi repellat officiis in velit. Impedit
+                                saepe, sed corrupti, ratione eligendi sapiente sit ipsam quis.....</p>
+                            <p class="cardBody-text"><img src="./images/board.png" alt="image" /><span>1/2</span></p>
+                        </div>
+                    </div>
+                    <!--Card Footer-->
+                    <div class="cardFooter">
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                       <p id="one">12+</p>
+                        <p> <img src="./images/chat.png" alt="image" /><span>15</span></p>
+                        <p><img src="./images/file.png" alt="image" onclick="openModal()" /><span>25</span></p>
+
+                        <div id="modal" class="modal">
+                            <div class="modal-content">
+                                <span class="close" onclick="closeModal()">&times;</span>
+                                <input type="file" id="fileInput" multiple>
+                                <div id="treeView"></div>
+                            </div>
+                        </div>
+
+                        <p> <img src="./images/calender.png" alt="image" /><span>30-12-2022</span></p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="card">
+                    <!--Card Header-->
+                    <div class="cardHeader">
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+                    </div>
+                    <!--Card Body-->
+                    <div class="card-body">
+                        <div class="cardBody">
+                            <p class="clien"><span><img src="./images/layer.jpg" alt="layer" /></span> Lorem ipsum dolor
+                                sit amet, consectetur adipisicing elit. Vero modi repellat officiis in velit. Impedit
+                                saepe, sed corrupti, ratione eligendi sapiente sit ipsam quis.....</p>
+                            <p class="cardBody-text"><img src="./images/board.png" alt="image" /><span>1/2</span></p>
+                        </div>
+                    </div>
+                    <!--Card Footer-->
+                    <div class="cardFooter">
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                       <p id="one">12+</p>
+                        <p> <img src="./images/chat.png" alt="image" /><span>15</span></p>
+                        <p><img src="./images/file.png" alt="image" onclick="openModal()" /><span>25</span></p>
+
+                        <div id="modal" class="modal">
+                            <div class="modal-content">
+                                <span class="close" onclick="closeModal()">&times;</span>
+                                <input type="file" id="fileInput" multiple>
+                                <div id="treeView"></div>
+                            </div>
+                        </div>
+
+                        <p> <img src="./images/calender.png" alt="image" /><span>30-12-2022</span></p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div>
+                <div class="card">
+                    <!--Card Header-->
+                    <div class="cardHeader">
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+                    </div>
+                    <!--Card Body-->
+                    <div class="card-body">
+                        <div class="cardBody">
+                            <p class="clien"><span><img src="./images/layer.jpg" alt="layer" /></span> Lorem ipsum dolor
+                                sit amet, consectetur adipisicing elit. Vero modi repellat officiis in velit. Impedit
+                                saepe, sed corrupti, ratione eligendi sapiente sit ipsam quis.....</p>
+                            <p class="cardBody-text"><img src="./images/board.png" alt="image" /><span>1/2</span></p>
+                        </div>
+                    </div>
+                    <!--Card Footer-->
+                    <div class="cardFooter">
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                       <p id="one">12+</p>
+                        <p> <img src="./images/chat.png" alt="image" /><span>15</span></p>
+                        <p><img src="./images/file.png" alt="image" onclick="openModal()" /><span>25</span></p>
+
+                        <div id="modal" class="modal">
+                            <div class="modal-content">
+                                <span class="close" onclick="closeModal()">&times;</span>
+                                <input type="file" id="fileInput" multiple>
+                                <div id="treeView"></div>
+                            </div>
+                        </div>
+
+                        <p> <img src="./images/calender.png" alt="image" /><span>30-12-2022</span></p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="card">
+                    <!--Card Header-->
+                    <div class="cardHeader">
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+                    </div>
+                    <!--Card Body-->
+                    <div class="card-body">
+                        <div class="cardBody">
+                            <p class="clien"><span><img src="./images/layer.jpg" alt="layer" /></span> Lorem ipsum dolor
+                                sit amet, consectetur adipisicing elit. Vero modi repellat officiis in velit. Impedit
+                                saepe, sed corrupti, ratione eligendi sapiente sit ipsam quis.....</p>
+                            <p class="cardBody-text"><img src="./images/board.png" alt="image" /><span>1/2</span></p>
+                        </div>
+                    </div>
+                    <!--Card Footer-->
+                    <div class="cardFooter">
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                       <p id="one">12+</p>
+                        <p> <img src="./images/chat.png" alt="image" /><span>15</span></p>
+                        <p><img src="./images/file.png" alt="image" onclick="openModal()" /><span>25</span></p>
+
+                        <div id="modal" class="modal">
+                            <div class="modal-content">
+                                <span class="close" onclick="closeModal()">&times;</span>
+                                <input type="file" id="fileInput" multiple>
+                                <div id="treeView"></div>
+                            </div>
+                        </div>
+
+                        <p> <img src="./images/calender.png" alt="image" /><span>30-12-2022</span></p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="card">
+                    <!--Card Header-->
+                    <div class="cardHeader">
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+                    </div>
+                    <!--Card Body-->
+                    <div class="card-body">
+                        <div class="cardBody">
+                            <p class="clien"><span><img src="./images/layer.jpg" alt="layer" /></span> Lorem ipsum dolor
+                                sit amet, consectetur adipisicing elit. Vero modi repellat officiis in velit. Impedit
+                                saepe, sed corrupti, ratione eligendi sapiente sit ipsam quis.....</p>
+                            <p class="cardBody-text"><img src="./images/board.png" alt="image" /><span>1/2</span></p>
+                        </div>
+                    </div>
+                    <!--Card Footer-->
+                    <div class="cardFooter">
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                       <p id="one">12+</p>
+                        <p> <img src="./images/chat.png" alt="image" /><span>15</span></p>
+                        <p><img src="./images/file.png" alt="image" onclick="openModal()" /><span>25</span></p>
+
+                        <div id="modal" class="modal">
+                            <div class="modal-content">
+                                <span class="close" onclick="closeModal()">&times;</span>
+                                <input type="file" id="fileInput" multiple>
+                                <div id="treeView"></div>
+                            </div>
+                        </div>
+
+                        <p> <img src="./images/calender.png" alt="image" /><span>30-12-2022</span></p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="card">
+                    <!--Card Header-->
+                    <div class="cardHeader">
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+                    </div>
+                    <!--Card Body-->
+                    <div class="card-body">
+                        <div class="cardBody">
+                            <p class="clien"><span><img src="./images/layer.jpg" alt="layer" /></span> Lorem ipsum dolor
+                                sit amet, consectetur adipisicing elit. Vero modi repellat officiis in velit. Impedit
+                                saepe, sed corrupti, ratione eligendi sapiente sit ipsam quis.....</p>
+                            <p class="cardBody-text"><img src="./images/board.png" alt="image" /><span>1/2</span></p>
+                        </div>
+                    </div>
+                    <!--Card Footer-->
+                    <div class="cardFooter">
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                       <p id="one">12+</p>
+                        <p> <img src="./images/chat.png" alt="image" /><span>15</span></p>
+                        <p><img src="./images/file.png" alt="image" onclick="openModal()" /><span>25</span></p>
+
+                        <div id="modal" class="modal">
+                            <div class="modal-content">
+                                <span class="close" onclick="closeModal()">&times;</span>
+                                <input type="file" id="fileInput" multiple>
+                                <div id="treeView"></div>
+                            </div>
+                        </div>
+
+                        <p> <img src="./images/calender.png" alt="image" /><span>30-12-2022</span></p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div>
+                <div class="card">
+                    <!--Card Header-->
+                    <div class="cardHeader">
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+                    </div>
+                    <!--Card Body-->
+                    <div class="card-body">
+                        <div class="cardBody">
+                            <p class="clien"><span><img src="./images/layer.jpg" alt="layer" /></span> Lorem ipsum dolor
+                                sit amet, consectetur adipisicing elit. Vero modi repellat officiis in velit. Impedit
+                                saepe, sed corrupti, ratione eligendi sapiente sit ipsam quis.....</p>
+                            <p class="cardBody-text"><img src="./images/board.png" alt="image" /><span>1/2</span></p>
+                        </div>
+                    </div>
+                    <!--Card Footer-->
+                    <div class="cardFooter">
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                       <p id="one">12+</p>
+                        <p> <img src="./images/chat.png" alt="image" /><span>15</span></p>
+                        <p><img src="./images/file.png" alt="image" onclick="openModal()" /><span>25</span></p>
+
+                        <div id="modal" class="modal">
+                            <div class="modal-content">
+                                <span class="close" onclick="closeModal()">&times;</span>
+                                <input type="file" id="fileInput" multiple>
+                                <div id="treeView"></div>
+                            </div>
+                        </div>
+
+                        <p> <img src="./images/calender.png" alt="image" /><span>30-12-2022</span></p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="card">
+                    <!--Card Header-->
+                    <div class="cardHeader">
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+                    </div>
+                    <!--Card Body-->
+                    <div class="card-body">
+                        <div class="cardBody">
+                            <p class="clien"><span><img src="./images/layer.jpg" alt="layer" /></span> Lorem ipsum dolor
+                                sit amet, consectetur adipisicing elit. Vero modi repellat officiis in velit. Impedit
+                                saepe, sed corrupti, ratione eligendi sapiente sit ipsam quis.....</p>
+                            <p class="cardBody-text"><img src="./images/board.png" alt="image" /><span>1/2</span></p>
+                        </div>
+                    </div>
+                    <!--Card Footer-->
+                    <div class="cardFooter">
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                       <p id="one">12+</p>
+                        <p> <img src="./images/chat.png" alt="image" /><span>15</span></p>
+                        <p><img src="./images/file.png" alt="image" onclick="openModal()" /><span>25</span></p>
+
+                        <div id="modal" class="modal">
+                            <div class="modal-content">
+                                <span class="close" onclick="closeModal()">&times;</span>
+                                <input type="file" id="fileInput" multiple>
+                                <div id="treeView"></div>
+                            </div>
+                        </div>
+
+                        <p> <img src="./images/calender.png" alt="image" /><span>30-12-2022</span></p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="card">
+                    <!--Card Header-->
+                    <div class="cardHeader">
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+                    </div>
+                    <!--Card Body-->
+                    <div class="card-body">
+                        <div class="cardBody">
+                            <p class="clien"><span><img src="./images/layer.jpg" alt="layer" /></span> Lorem ipsum dolor
+                                sit amet, consectetur adipisicing elit. Vero modi repellat officiis in velit. Impedit
+                                saepe, sed corrupti, ratione eligendi sapiente sit ipsam quis.....</p>
+                            <p class="cardBody-text"><img src="./images/board.png" alt="image" /><span>1/2</span></p>
+                        </div>
+                    </div>
+                    <!--Card Footer-->
+                    <div class="cardFooter">
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                       <p id="one">12+</p>
+                        <p> <img src="./images/chat.png" alt="image" /><span>15</span></p>
+                        <p><img src="./images/file.png" alt="image" onclick="openModal()" /><span>25</span></p>
+
+                        <div id="modal" class="modal">
+                            <div class="modal-content">
+                                <span class="close" onclick="closeModal()">&times;</span>
+                                <input type="file" id="fileInput" multiple>
+                                <div id="treeView"></div>
+                            </div>
+                        </div>
+
+                        <p> <img src="./images/calender.png" alt="image" /><span>30-12-2022</span></p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="card">
+                    <!--Card Header-->
+                    <div class="cardHeader">
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+
+                        <div class="card-client">
+                            <img src="./images/avatar.png" alt="image" />
+                            <p class="client-name">Client Name</p>
+                        </div>
+                    </div>
+                    <!--Card Body-->
+                    <div class="card-body">
+                        <div class="cardBody">
+                            <p class="clien"><span><img src="./images/layer.jpg" alt="layer" /></span> Lorem ipsum dolor
+                                sit amet, consectetur adipisicing elit. Vero modi repellat officiis in velit. Impedit
+                                saepe, sed corrupti, ratione eligendi sapiente sit ipsam quis.....</p>
+                            <p class="cardBody-text"><img src="./images/board.png" alt="image" /><span>1/2</span></p>
+                        </div>
+                    </div>
+                    <!--Card Footer-->
+                    <div class="cardFooter">
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                        <p> <img src="./images/avatar.png" alt="image" /></p>
+                       <p id="one">12+</p>
+                        <p> <img src="./images/chat.png" alt="image" /><span>15</span></p>
+                        <p><img src="./images/file.png" alt="image" onclick="openModal()" /><span>25</span></p>
+                        <!--Modal &&  file Upload-->
+                        <div id="modal" class="modal">
+                            <div class="modal-content">
+                                <span class="close" onclick="closeModal()">&times;</span>
+                                <input type="file" id="fileInput" multiple>
+                                <div id="treeView"></div>
+                            </div>
+                        </div>
+
+                        <p> <img src="./images/calender.png" alt="image" /><span>30-12-2022</span></p>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </section>
+
+
+
+
+
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+        crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
